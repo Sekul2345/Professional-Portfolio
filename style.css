@@ -458,6 +458,9 @@ section{
 
 
 @media(max-width:1285px){
+    html{
+        background: transparent;
+    }
     #menu-icon{
         display: block;
     }
@@ -493,7 +496,7 @@ section{
     .home{
         flex-direction: column-reverse;
         margin: 5rem;
-        margin-left: 12rem;
+        margin-left: 10rem;
         gap: 5rem;
     }
     .home-content{
@@ -503,15 +506,20 @@ section{
     .home-img img{
         width: 55vw;
     }
+    .social-icons a{
+        font-size: 2rem;
+    }
     .about{
         flex-direction: column-reverse;
         text-align: center;
         margin:5rem;
         margin-left:13rem;
+        padding:10px;
     }
     .about h2{
         text-align: center;
         margin: 2rem 0;
+        font-size: large;
     }
     .about-img img{
         width: 50vw;
@@ -531,10 +539,11 @@ section{
         background-color: var(--bg-color);
     }
     .service-box{
-        width:350px;
+        width:300px;
     }
     .project-card{
-        width: 350px;
+        width: 300px;
+        margin-right: 7rem;
         justify-content: center;
         align-items: center;
         text-align: center;
