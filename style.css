@@ -492,7 +492,8 @@ section{
     }
     .home{
         flex-direction: column-reverse;
-        margin: 5rem 0;
+        margin: 5rem;
+        margin-left: 12rem;
         gap: 5rem;
     }
     .home-content{
@@ -505,6 +506,8 @@ section{
     .about{
         flex-direction: column-reverse;
         text-align: center;
+        margin:5rem;
+        margin-left:13rem;
     }
     .about h2{
         text-align: center;
@@ -513,6 +516,10 @@ section{
     .about-img img{
         width: 50vw;
         margin-top:-55px;
+    }
+    .contact h2{
+        position: relative;
+        right:4rem;
     }
     .contact form{
         flex-direction:column;
@@ -526,12 +533,12 @@ section{
     .service-box{
         width:350px;
     }
-/*     .project-card{
+    .project-card{
         width: 350px;
         justify-content: center;
         align-items: center;
         text-align: center;
-    } */
+    }
     .skills{
         background-color: transparent;
     }
@@ -542,7 +549,11 @@ section{
     .skills-box h3 span{
         margin-top:50px;
     }
-    
+    .footer{
+        background: transparent;
+        margin:7rem;
+        margin-left:5rem
+    }
     
 }
 
