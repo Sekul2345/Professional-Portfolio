@@ -507,6 +507,12 @@ section{
     .home-img img{
         width: 55vw;
     }
+    
+    #menu-icon {
+        position: relative;
+        right: 21rem;
+    }
+    
     .social-icons a{
         font-size: 2rem;
     }
@@ -590,10 +596,4 @@ section{
         font-size: 1.6rem;
     }
 }
-@media screen and (max-width: 480px) {
-    #menu-icon {
-        position: relative;
-        right: 21rem;
-    }
     
-}
