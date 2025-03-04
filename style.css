@@ -591,22 +591,9 @@ section{
     }
 }
 @media screen and (max-width: 480px) {
-    .header a:nth-of-type(2) {
-        padding: 5px;
-        font-size: 15px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
     #menu-icon {
         position: relative;
         right: 21rem;
     }
     
-    .header a:nth-of-type(1) {
-        text-align: center;
-        position: relative;
-        left: 2rem;
-    }
 }
