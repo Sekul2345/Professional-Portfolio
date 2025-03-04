@@ -526,12 +526,12 @@ section{
     .service-box{
         width:350px;
     }
-    .project-card{
+/*     .project-card{
         width: 350px;
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
+    } */
     .skills{
         background-color: transparent;
     }
