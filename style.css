@@ -463,6 +463,7 @@ section{
     }
     #menu-icon{
         display: block;
+
     }
     .heading span{
         text-align: center;
@@ -587,5 +588,25 @@ section{
     .contact form textarea {
         padding: 1.5rem;
         font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header a:nth-of-type(2) {
+        padding: 5px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #menu-icon {
+        position: relative;
+        right: 21rem;
+    }
+    
+    .header a:nth-of-type(1) {
+        text-align: center;
+        position: relative;
+        left: 2rem;
     }
 }
