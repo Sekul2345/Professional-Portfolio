@@ -219,7 +219,7 @@ section{
 }
 
 .about{
-    display: flex;
+    display:flex;
     justify-content:center;
     align-items:center;
     gap:10rem;
@@ -501,7 +501,8 @@ section{
         flex-direction: column-reverse;
         margin: 5rem;
         margin-left: 10rem;
-        gap: 5rem;
+        gap:5rem;
+        margin-bottom:-100px;
     }
     .home-content{
         align-items:center;
@@ -526,6 +527,8 @@ section{
         margin-left:13rem;
         align-items: center;
         background-color: #080808;
+        margin-bottom:-100px;
+        margin-top:20px;
         
     }
     .btn{
@@ -571,10 +574,14 @@ section{
     }
     .projects{
        background-color:var(--bg-color) ;
+       margin-bottom:-100px;
     }
     .about p{
         font-size:1.3rem;
         padding:10px;
+    }
+    .services{
+        margin-bottom:-100px;
     }
     .service-box{
         width:300px;
@@ -599,6 +606,10 @@ section{
     .footer{
         background: transparent;
         margin:auto;
+    }
+    .contact{
+        margin-bottom:-100px;
+        margin-top:-80px;
     }
     
 }
