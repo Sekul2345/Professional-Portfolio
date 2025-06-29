@@ -634,24 +634,48 @@ section{
     }
 }
     
+/* Popup message */
 .popup {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #4BB543; /* Green Success Color */
-    color: white;
-    padding: 15px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: none;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
     font-weight: bold;
-    z-index: 1000;
-    animation: fadeInOut 3s forwards;
+    font-size: 16px;
+    animation: fadeIn 0.5s ease-in-out;
 }
 
-@keyframes fadeInOut {
-    0% { opacity: 0; transform: translateY(-20px); }
-    10% { opacity: 1; transform: translateY(0); }
-    90% { opacity: 1; }
-    100% { opacity: 0; transform: translateY(-20px); }
+/* Show the popup */
+.popup.show {
+    display: block;
+}
+
+/* Optional: popup fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .popup {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popup {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
 }
