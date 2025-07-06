@@ -357,7 +357,7 @@ section{
     object-fit: cover;
 }
 .project-card h3{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .project-card p{
     font-size: 1.6rem;
@@ -402,7 +402,7 @@ section{
 }
 .footer ul{
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 .footer ul li{
     display: inline-block;
@@ -420,6 +420,7 @@ section{
     text-align: center;
     margin-top: 40px;
     font-size: 16px;
+    color:var(--main-color);
 }
 .skills{
     background-color: black;
@@ -500,9 +501,11 @@ section{
     .home{
         flex-direction: column-reverse;
         margin: 5rem;
-        margin-left: 10rem;
+        margin-left: 6rem;
         gap:5rem;
         margin-bottom:-100px;
+        align-items: center;
+        text-align: center;
     }
     .home-content{
         align-items:center;
@@ -523,13 +526,18 @@ section{
     .about{
         flex-direction: column-reverse;
         text-align: center;
-        margin:10rem;
-        margin-left:13rem;
+        /* margin:10rem;
+        margin-left:13rem; */
+        margin-left: 1em;
         align-items: center;
         background-color: #080808;
-        margin-bottom:-100px;
-        margin-top:20px;
+        /* margin-bottom:-100px;
+        margin-top:20px; */
         
+    }
+    .about h2{
+        position: relative;
+        font-size:5rem;
     }
     .btn{
         border-radius:1rem;
@@ -543,16 +551,17 @@ section{
         margin-top:20px;
         
     } */
-    .about-img img{
-        width: 42vw;
-        margin-top:-55px;
-        position: relative;
-        bottom:125px;
+     .about-img img {
+     width: 100%;
+     max-width: 250px;
+     height: auto;
+     margin-top:-200px;
 
     }
+
     .about-content .btn{
         position: relative;
-        top:280px;
+        top:380px;
         padding:20px;
         background-color: black;
         color: var(--main-color);
@@ -567,7 +576,7 @@ section{
     
     .contact h2{
         position: relative;
-        right:4rem;
+        font-size:4rem;
     }
     .contact form{
         flex-direction:column;
@@ -582,8 +591,12 @@ section{
     }
     .services{
         margin-bottom:-100px;
+        size: adjust 10px;
     }
-    .service-box{
+    .services.h2{
+        font-size:2rem;
+    }
+    .services-box{
         width:300px;
     }
     .project-card{
@@ -653,29 +666,3 @@ section{
     display: block;
 }
 
-/* Optional: popup fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .popup {
-        font-size: 14px;
-        padding: 10px 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .popup {
-        font-size: 13px;
-        padding: 8px 12px;
-    }
-}
