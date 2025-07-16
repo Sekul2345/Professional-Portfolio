@@ -666,3 +666,47 @@ section{
     display: block;
 }
 
+/* whatsapp.css */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-icon {
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .whatsapp-button {
+    border-radius: 5px;
+    background-color: #00c247;
+    font-size: 8px;
+    padding: 10px 10px;
+    bottom: 15px;
+    right: 15px;
+  }
+  .whatsapp-icon {
+  font-size: 8px;
+}
+}
+
+
