@@ -7,6 +7,15 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
+// whatsapp.js
+function openWhatsApp() {
+  const phoneNumber = "917806951071"; // With country code (91 for India)
+  const message = "Hi, I need to contact you";
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank'); // Opens in new tab on all devices
+}
+
+
 // Initialize EmailJS
 (function () {
     emailjs.init('qeNvH-9bnSySpcihz'); // Your EmailJS Public Key
